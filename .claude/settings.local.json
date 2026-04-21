@@ -2,7 +2,8 @@
   "permissions": {
     "allow": [
       "mcp__claude_ai_Google_Drive__search_files",
-      "Bash(bun run:*)"
+      "Bash(bun run:*)",
+      "Bash(git:*)"
     ]
   }
 }
