@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { ExternalLink } from "lucide-react";
-import { fadeInUp, stagger } from "@/app/lib/animations";
+import { fadeInUp, stagger } from "../lib/animations";
 
 export default function Projects() {
   return (

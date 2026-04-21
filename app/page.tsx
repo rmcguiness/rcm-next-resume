@@ -2,15 +2,15 @@
 
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { resumeData } from "@/app/lib/resume-data";
-import ToggleBar from "@/app/components/ToggleBar";
-import SyntaxHighlighter from "@/app/components/SyntaxHighlighter";
-import Hero from "@/app/components/Hero";
-import Experience from "@/app/components/Experience";
-import Skills from "@/app/components/Skills";
-import Projects from "@/app/components/Projects";
-import Education from "@/app/components/Education";
-import Footer from "@/app/components/Footer";
+import { resumeData } from "./lib/resume-data";
+import ToggleBar from "./components/ToggleBar";
+import SyntaxHighlighter from "./components/SyntaxHighlighter";
+import Hero from "./components/Hero";
+import Experience from "./components/Experience";
+import Skills from "./components/Skills";
+import Projects from "./components/Projects";
+import Education from "./components/Education";
+import Footer from "./components/Footer";
 
 export default function Home() {
   const [viewSource, setViewSource] = useState(false);

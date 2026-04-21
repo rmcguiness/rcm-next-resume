@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { fadeInUp, stagger } from "@/app/lib/animations";
+import { fadeInUp, stagger } from "../lib/animations";
 
 export default function Experience() {
   return (

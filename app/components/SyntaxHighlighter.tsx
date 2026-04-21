@@ -1,5 +1,5 @@
 import { Fragment } from "react";
-import { type ResumeData } from "@/app/lib/resume-data";
+import { type ResumeData } from "../lib/resume-data";
 
 export default function SyntaxHighlighter({ data }: { data: ResumeData }) {
   let lineNum = 0;

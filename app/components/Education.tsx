@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { fadeInUp } from "@/app/lib/animations";
+import { fadeInUp } from "../lib/animations";
 
 export default function Education() {
   return (
