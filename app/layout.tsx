@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Ryan McGuiness - Software Engineer",
+  title: "Ryan McGuiness - Full Stack Engineer",
   description:
-    "Software Engineer with over 4 years of professional experience developing full-stack software solutions, specializing in front-end technologies.",
+    "Full Stack Engineer with 5+ years of professional experience building performant, production-grade web applications across diverse industries.",
 };
 
 export default function RootLayout({
